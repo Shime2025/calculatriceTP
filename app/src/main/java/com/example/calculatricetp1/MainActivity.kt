@@ -204,8 +204,7 @@ class MainActivity : AppCompatActivity() {
             texteAffiche = opposeStr
         }
 
-        // Si c'était un résultat, ça reste un résultat (même avec le signe inversé)
-        // Donc on ne modifie pas estUnResultat
+        
 
         rafraichirAffichage()
     }
