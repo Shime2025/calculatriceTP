@@ -101,7 +101,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Fonctionnalité 3: Le clic sur une opération l'ajoute à la fin de la ligne du haut.
-    // Si la ligne contient déjà une opération, cette opération est effectuée et son résultat affiché avant cet affichage d'opération
     private fun ajouterOperation(operation: String) {
         // Si une opération est déjà en cours, on calcule d'abord
         if (premierNombre != null && operationEnCours != null && !debutSaisie) {
