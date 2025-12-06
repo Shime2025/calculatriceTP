@@ -144,7 +144,7 @@ class MainActivity : AppCompatActivity() {
         val parties = texteAffiche.split(" ")
         val deuxieme = parties.lastOrNull()?.toDoubleOrNull() ?: return
 
-        // Faire le calcul selon l'opération
+        // Faire le calcul en fonction l'opération
         val resultat = when (operationEnCours) {
             "+" -> premier + deuxieme
             "-" -> premier - deuxieme
