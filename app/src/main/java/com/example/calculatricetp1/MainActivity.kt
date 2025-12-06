@@ -212,7 +212,6 @@ class MainActivity : AppCompatActivity() {
 
     // Fonctionnalité 6: Le clic sur le bouton "effacer" efface le dernier caractère que ce soit un chiffre ou une opération
     // Effacement du dernier chiffre ne doit bien sûr pas afficher un zéro
-    // (Pour les nombres négatifs, on efface le signe "moins" en même temps que le seul chiffre d'un nombre à un chiffre)
     private fun effacerDernier() {
         if (texteAffiche.isEmpty()) return
 
