@@ -129,8 +129,8 @@ class MainActivity : AppCompatActivity() {
         rafraichirAffichage()
     }
 
-    // Fonctionnalité 4: Le clic sur le bouton "=" effectue l'opération choisie et affiche le résultat,
-    // quand il y a une opération, sinon rien n'est modifié
+    // Fonctionnalité 4: Le clic sur le bouton "=" effectue l'opération choisie et affiche le résultat
+    // quand il y a une opération sinon rien n'est modifié
     private fun calculerResultat() {
         if (premierNombre != null && operationEnCours != null && !debutSaisie) {
             faireCalcul()
