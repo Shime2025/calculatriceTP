@@ -122,7 +122,7 @@ class MainActivity : AppCompatActivity() {
         if (!texteAffiche.endsWith(" ")) {
             texteAffiche += " $operation "
         } else {
-            // Remplacer l'opération si on clique deux fois
+            
             texteAffiche = texteAffiche.dropLast(3) + " $operation "
         }
         estUnResultat = false
